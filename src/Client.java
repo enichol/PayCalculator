@@ -13,10 +13,7 @@ public class Client {
         expenses.put("Socks", 98);
         expenses.put("Uber", 12);
 
-        //int rtrn = payCalculator.calculatePay("Derek", expenses);
-        //System.out.println(rtrn);
-
-        Employee charles = new Employee("charles", "mcDude", "Ontario", "Accounting", "Accountant");
-        System.out.println(charles.department);
+        int pay = payCalculator.calculatePay("alpha bravo", expenses);
+        System.out.println("$" + pay + ".00");
     }
 }
